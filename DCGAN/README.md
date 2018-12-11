@@ -1,7 +1,7 @@
 ### READ ME FIRST
 This code is taken from https://github.com/tatsy/keras-generative with small modifications. Visit the github repo for more GAN models.
 - The Train_DCGAN.ipynb notebook is for initiating the training <b>DCGAN</b> with <b>CelebA dataset</b> (image size 32x32).
-- Download <b>Train_DCGAN.ipynb</b> and <b>celebA_32.hdf5</b> from the [here](https://drive.google.com/open?id=1_WhJsXzsddysyzEuX8RFZqkyQqY5mPVD) to your Drive and run with Colab. If you have powerful PC, you can try the <b>celebA_64.hdf5</b>.
+- Download <b>Train_DCGAN.ipynb</b> and dataset <b>celebA_32.hdf5</b> from the [here](https://drive.google.com/open?id=1_WhJsXzsddysyzEuX8RFZqkyQqY5mPVD) to your Drive and run with Colab. If you have powerful PC, you can try the <b>celebA_64.hdf5</b>. OR download folder <b>RunonPC</b> and dataset to your machine.
 
 ### Some notes
 
