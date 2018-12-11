@@ -2,9 +2,13 @@
 This code is taken from https://github.com/tatsy/keras-generative with small modifications. Visit the github repo for more GAN models.
 - The Train_DCGAN.ipynb notebook is for initiating the training <b>DCGAN</b> with <b>CelebA dataset</b> (image size 32x32).
 - Download <b>Train_DCGAN.ipynb</b> and dataset <b>celebA_32.hdf5</b> from the [here](https://drive.google.com/open?id=1_WhJsXzsddysyzEuX8RFZqkyQqY5mPVD) to your Drive and run with Colab. If you have powerful PC, you can try the <b>celebA_64.hdf5</b>. OR download folder <b>Run_local</b> and dataset to your machine.
-This is what i got after 20 epochs
-![](DCGAN_epoch_0020_64.png?raw=true "Result with image size 64x64 at epoch 20th")
-![](DCGAN_epoch_0020_32.png?raw=true "Result with image size 32x32 at epoch 20th")
+- This is what i got after 20 epochs
+
+Image size 64x64
+![](DCGAN_epoch_0020_64.png?raw=true)
+
+Image size 32x32
+![](DCGAN_epoch_0020_32.png?raw=true)
 
 ### Some notes
 
