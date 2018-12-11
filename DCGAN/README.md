@@ -1,7 +1,8 @@
 ### READ ME FIRST
 This code is taken from https://github.com/tatsy/keras-generative with small modifications. Visit the github repo for more GAN models.
 - The Train_DCGAN.ipynb notebook is for initiating the training <b>DCGAN</b> with <b>CelebA dataset</b> (image size 32x32).
-- Download <b>Train_DCGAN.ipynb</b> and dataset <b>celebA_32.hdf5</b> from the [here](https://drive.google.com/open?id=1_WhJsXzsddysyzEuX8RFZqkyQqY5mPVD) to your Drive and run with Colab. If you have powerful PC, you can try the <b>celebA_64.hdf5</b>. OR download folder <b>Run_local</b> and dataset to your machine.
+- Download <b>Train_DCGAN.ipynb</b> and dataset <b>celebA_32.hdf5</b> from the [here](https://drive.google.com/open?id=1_WhJsXzsddysyzEuX8RFZqkyQqY5mPVD) to your Drive and run with Colab. If you have powerful PC, download folder <b>Run_local</b> and dataset to your machine and try the <b>celebA_64.hdf5</b>.
+- Since the code will load all the dataset <b>celebA_32.hdf5</b> (600MB) or <b>celebA_64.hdf5</b> (2GB) into RAM during training, this could be a memory problem for your machine. One solution is to code your own on the fly dataset which will load only the batch of images each iteration.
 - This is what i got after 20 epochs
 
 Image size 64x64
