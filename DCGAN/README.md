@@ -1,12 +1,7 @@
 ### READ ME FIRST
-
 This code is taken from https://github.com/tatsy/keras-generative with small modifications. Visit the github repo for more GAN models.
-
-- This notebook is for initiating the training **DCGAN** with **CelebA dataset** (image size 32x32).
-
-- Download **folder model + Train_DCGAN.ipynb + celebA_32.hdf5** to your Drive and run with Colab.
-- The image results will be saved in `./output/dcgan/results/`.
-- The example results are in folder `./output32_example/dcgan/results/`.
+- The Train_DCGAN.ipynb notebook is for initiating the training <b>DCGAN</b> with <b>CelebA dataset<b/> (image size 32x32).
+- Download <b>Train_DCGAN.ipynb</b> and <b>celebA_32.hdf5</b> from the [here](https://drive.google.com/open?id=1_WhJsXzsddysyzEuX8RFZqkyQqY5mPVD) to your Drive and run with Colab. If you have powerful PC, you can try the <b>celebA_64.hdf5</b>
 
 ### Some notes
 
@@ -30,4 +25,5 @@ This code has been verified as working. Ideally, the `g_loss, d_loss, g_acc, d_a
 
 The networks often converge after 1-2 first epochs, depending on how you set zdim. So if the numbers don't change or d_acc = 1 after 5 epochs, <b>just restart the code and run it again</b>.
 Run the code a few times and you will get the hang of it.
-########## HAVE FUN ##########
+
+### HAVE FUN
